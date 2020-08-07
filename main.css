@@ -29,6 +29,7 @@ i {
 
 i:hover {
   color: #D6AFA1;
+  transition: 0.3s;
 }
 
 .banner {
