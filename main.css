@@ -94,3 +94,23 @@ i:hover {
   display: flex;
   align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .banner {
+    background-position: right;
+    background-size: 160% auto;
+  }
+  .content {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer {
+    margin-left: 20px;
+  }
+}
